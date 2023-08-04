@@ -2,12 +2,14 @@
 import './App.css';
 import React from 'react';
 import RecipeDescription from './components/Description';
+import RecipeIngredients from './components/Ingredients';
 
 function App() {
   return (
     <div className="App">
      <div>
       <RecipeDescription />
+      <RecipeIngredients />
    </div>
 </div>
   );

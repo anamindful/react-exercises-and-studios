@@ -22,18 +22,11 @@ class RecipeDescription extends React.Component {
        return(
         <div>
            <h1>SWEET POTATO CHICKEN POPPERS</h1>
-           <p>INGREDIENTS
-1 lb ground chicken
-2 cups uncooked sweet potato, finely grated 
-2 tbsp coconut oil + 1 tsp for greasing the baking sheet
-2 tbsp coconut flour
-2 sprigs green onion, chopped fine
-1 tbsp garlic powder
-1 tbsp onion powder
-1 tsp sea salt
-1/2 tsp black pepper
-Optional: 1 tsp paprika or chili powder
-</p>
+           <p>Are you a chicken nugget fan? Or maybe you have one in the family? 
+            I feel you! Chicken nuggets are life, and I was obsessed for the first
+             half of my life. Okay maybe more. Chicken nuggets are one of those 
+             foods that seems like youd never be able to make them with real food… 
+             think again! These sweet potato chicken poppers are the real food, adult version of the chicken nuggets that I loved for years!</p>
         <RecipeAuthor />
         </div>
        );
