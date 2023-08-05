@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import HobbyIntroduction from './components/Introduction';
+import MyProjects from './components/Projects';
 
 function App() {
   return (
     <div className="App">
      <h1>My Hobby: Fitness</h1>
      <HobbyIntroduction/>
+     <MyProjects/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

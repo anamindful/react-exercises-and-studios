@@ -4,9 +4,9 @@ export default function HobbyIntroduction(){
         <div>
             <h2>3 Fun Facts About Fitness</h2>
             <ul>
-                <ol>It's habit based.</ol>
-                <ol>It can be fun!</ol>
-                <ol>Fitness isn't as complex as people make it.</ol>
+                <ol>Habit Based.</ol>
+                <ol>It's fun!</ol>
+                <ol>Make it Simple.</ol>
             </ul>
         </div>
     );

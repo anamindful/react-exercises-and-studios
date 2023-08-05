@@ -2,37 +2,37 @@
     "projects": [
         {
             "title": "30 Day Walk Challenge",
-            "description": "Everyday for 30 days walk 1 mile",
+            "how": "Everyday for 30 days walk 1 mile",
             "goal": "The goal is to build a habit of movement.",
-            "difficultly": "Easy"
+            "level": "Easy"
 
         },
         {
             "title": "5 Day Movement Challenge",
-            "description": "For 5 days do 10 Squats and 10 Sit Ups",
+            "how": "For 5 days do 10 Squats and 10 Sit Ups",
             "goal": "The goal is to mix it up and move!",
-            "difficultly": "Easy"
+            "level": "Easy"
 
         },
         {
             "title": "14 Day Water Challenge",
-            "description": "For 14 days drink half of your body weight in ounces.",
+            "how": "For 14 days drink half of your body weight in ounces.",
             "goal": "The goal here is to focus on being hydrated",
-            "difficultly": "Easy"
+            "level": "Easy"
 
         },
         {
             "title": "2 Day Gym Challenge",
-            "description": "This challenge is to go to the gym two times this week.",
+            "how": "This challenge is to go to the gym two times this week.",
             "goal": "The goal is to get out and expand movement to increase muscle.",
-            "difficultly": "Medium"
+            "level": "Medium"
 
         },
         {
             "title": "3 Day Fitness Challenge",
-            "description": "This challenge is broken up into three days. Day 1: 20 Squats. Day 2: 20 Sit Ups. Day 3: 20 Burpees.",
+            "how": "This challenge is broken up into three days. Day 1: 20 Squats. Day 2: 20 Sit Ups. Day 3: 20 Burpees.",
             "goal": "The goal is to have fun and challenge yourself!",
-            "difficultly": "Medium"
+            "level": "Medium"
 
         }
 
