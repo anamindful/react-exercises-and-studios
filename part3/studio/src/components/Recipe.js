@@ -1,21 +1,27 @@
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://bakingmischief.com/no-chill-small-batch-chocolate-chip-cookies/";
+   let authorPhoto = "https://bakingmischief.com/wp-content/uploads/2017/03/baking-mischief-about-tracy.jpg";
+   let authorName = "Tracy";
 
    return (
       <div>
          <img src={authorPhoto} alt = "" style={{objectFit: "contain", borderRadius: "50%"}} />
          <div>
             <h3>{authorName}</h3>
-            <a href={authorLink}></a> 
+            <a href={authorLink}>{"https://bakingmischief.com/no-chill-small-batch-chocolate-chip-cookies/"}</a> 
          </div>
       </div>
    );
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = [
+      "all-purpose flour",
+      "baking soda",
+      "sugar",
+      "butter",
+      "chocolate chips"
+   ];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -31,6 +37,9 @@ const RecipeIngredients = () => {
 }
 
 const RecipeDescription = () => {
+   const recipeTitle = "Chocolate Chip Cookies";
+   const RecipeDescription = "Small-batch Cookies!"
+
    return (
       <div> 
          <div>
@@ -46,8 +55,10 @@ const RecipeDescription = () => {
 }
 
 const RecipePhoto = () => {
+   const cookiePic = "https://i2.wp.com/bakingmischief.com/wp-content/uploads/2017/02/small-batch-chocolate-chip-cookies-ohphoto.jpg";
+
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="{cookiePic}" alt="" className="imageUpdates"/>
    );
 }
 
